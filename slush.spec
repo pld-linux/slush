@@ -18,7 +18,7 @@ SSL/TLS for communications security.
 
 %build
 %configure
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
