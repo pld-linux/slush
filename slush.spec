@@ -33,14 +33,12 @@ install -d $RPM_BUILD_ROOT/{%{_bindir},%{_sbindir},%{_sysconfdir}/slushd}
 install slushd $RPM_BUILD_ROOT/%{_sbindir}
 install slush $RPM_BUILD_ROOT/%{_bindir}
 
-gzip -9nf README HISTORY README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {README,HISTORY,README,TODO}.gz
+%doc README HISTORY TODO
 %doc %attr(755,root,root) wannabe-ca.sh make-server-cert.sh make-cert.sh hash-certs.sh
 %dir %{_sysconfdir}/slushd
 %attr(700,root,root) %{_sbindir}/slushd
