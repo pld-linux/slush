@@ -7,6 +7,7 @@ License:	GPL
 Group:		Networking
 Source0:	http://violet.ibs.com.au/slush/files/%{name}-%{version}.tar.gz
 # Source0-md5:	7bf760806295d4df3247fc7bbdb351db
+BuildRequires:	autoconf
 BuildRequires:	openssl-devel >= 0.9.7d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,6 +25,7 @@ SSL/TLS dla bezpiecznej komunikacji.
 %setup -q
 
 %build
+%{__autoconf}
 %configure
 %{__make}
 
