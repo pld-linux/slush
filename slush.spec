@@ -6,7 +6,7 @@ Copyright:	GPL
 Group:		Networking
 Source:		http://violet.ibs.com.au/slush/files/%{name}-%{version}.tar.gz
 BuildRequires:	openssl-devel
-Buildroot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 slush is a remote shell system similar to telnet. It uses X509 
