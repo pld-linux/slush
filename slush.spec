@@ -42,11 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 
 %attr(0700,root,root) /usr/sbin/slushd
 %attr(0755,root,root) /usr/bin/slush
-
-%changelog
-* Fri May 07 1999 Damien Miller <damien@ibs.com.au>
-- Parametised version
-- Tries to tweak doc scripts permission
-
-* Thu May 06 1999 Damien Miller <damien@ibs.com.au>
-- Created RPM
