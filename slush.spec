@@ -29,10 +29,10 @@ SSL/TLS dla bezpiecznej komunikacji.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_sbindir},%{_sysconfdir}/slushd}
 
-install -d $RPM_BUILD_ROOT/{%{_bindir},%{_sbindir},%{_sysconfdir}/slushd}
-install slushd $RPM_BUILD_ROOT/%{_sbindir}
-install slush $RPM_BUILD_ROOT/%{_bindir}
+install slushd $RPM_BUILD_ROOT%{_sbindir}
+install slush $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
