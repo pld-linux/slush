@@ -5,10 +5,6 @@ Version:	0.1.2
 Release:	1
 License:	GPL
 Group:		Networking
-Group(de):	Netzwerkwesen
-Group(es):	Red
-Group(pl):	Sieciowe
-Group(pt_BR):	Rede
 Source0:	http://violet.ibs.com.au/slush/files/%{name}-%{version}.tar.gz
 BuildRequires:	openssl-devel >= 0.9.4-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
