@@ -24,8 +24,8 @@ SSL/TLS for communications security.
 rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT/{%{_bindir},%{_sbindir},/etc/slushd}
-install -s slushd $RPM_BUILD_ROOT/%{_sbindir}
-install -s slush $RPM_BUILD_ROOT/%{_bindir}
+install slushd $RPM_BUILD_ROOT/%{_sbindir}
+install slush $RPM_BUILD_ROOT/%{_bindir}
 
 gzip -9nf README HISTORY README TODO
 
