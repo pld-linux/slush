@@ -5,7 +5,7 @@ Release:	1
 Copyright:	GPL
 Group:		Networking
 Source:		http://violet.ibs.com.au/slush/files/%{name}-%{version}.tar.gz
-BuildPrereq:	openssl-devel
+BuildRequires:	openssl-devel
 Buildroot:	/tmp/%{name}-%{version}-root
 
 %description
