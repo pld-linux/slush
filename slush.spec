@@ -1,5 +1,5 @@
 Summary:	SSL remote access client/server
-Summary(pl.UTF-8):   Klient/serwer zdalnego dostępu po SSL
+Summary(pl.UTF-8):	Klient/serwer zdalnego dostępu po SSL
 Name:		slush
 Version:	0.1.2
 Release:	1
