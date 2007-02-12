@@ -1,5 +1,5 @@
 Summary:	SSL remote access client/server
-Summary(pl):	Klient/serwer zdalnego dostÍpu po SSL
+Summary(pl.UTF-8):   Klient/serwer zdalnego dostƒôpu po SSL
 Name:		slush
 Version:	0.1.2
 Release:	1
@@ -16,9 +16,9 @@ slush is a remote shell system similar to telnet. It uses X509
 certificates for strong authentication instead of passwords and uses
 SSL/TLS for communications security.
 
-%description -l pl
-slush jest systemem zdalnej pow≥oki podobnym do telnetu. Uøywa
-certyfikatÛw X.509 do silnej autentykacji zamiast hase≥ i uøywa
+%description -l pl.UTF-8
+slush jest systemem zdalnej pow≈Çoki podobnym do telnetu. U≈ºywa
+certyfikat√≥w X.509 do silnej autentykacji zamiast hase≈Ç i u≈ºywa
 SSL/TLS dla bezpiecznej komunikacji.
 
 %prep
